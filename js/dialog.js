@@ -7,6 +7,7 @@
   var dialogUserNameInput = dialogWindow.querySelector('.setup-user-name');
   var closeDialogWindowButton = dialogWindow.querySelector('.setup-close');
 
+  window.dialogWindow = dialogWindow;
 
   var wizardCoat = dialogWindow.querySelector('.wizard-coat');
   var wizardCoatInput = dialogWindow.querySelector('input[name=coat-color]');
